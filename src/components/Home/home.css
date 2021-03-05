@@ -1,0 +1,40 @@
+section#post{
+    width:100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+section#post article {
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom:10px;
+}
+
+section#post article header{
+    padding:20px;
+    display:flex;
+    align-items: center;
+}
+
+section#post article header .title{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size:25px;
+}
+
+section#post article header span{
+    font-size:13px;
+    padding-top:5px;
+    text-align: center;
+}
+
+section#post article > img{
+    width:100%;
+}
+
+section#post article footer {
+    padding:20px;
+    word-wrap: break-word;
+}

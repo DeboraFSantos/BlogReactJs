@@ -1,0 +1,115 @@
+header#new{
+    width:100%;
+    max-width:1050px;
+    margin: 0 auto;
+    height: 72px;
+    padding:0 30px;
+    margin-top:30px;
+    display:flex;
+    background: #fff;
+    align-items:center;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+header#new h1{
+    font-size:18px;
+    color:#262626;
+}
+
+header#new a{
+    font-size:18px;
+    text-decoration: none;
+    color:#a8a8a8;
+}
+
+
+form#post {
+    width:100%;
+    max-width:1050px;
+    margin: 30px auto 0;
+    padding: 30px;
+    background:#fff;
+    border-radius:8px;
+    display:flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+
+form#post label {
+    font-size:14px;
+    color:#a8a8a8;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+form#post span {
+    text-align: center;
+    color:#ff0000;
+    font-size:15px;
+}
+
+form#post img {
+    width:200px;
+    height: auto;
+    margin-bottom:15px;
+}
+
+form#post progress {
+    margin-bottom:15px;
+}
+
+form#post input {
+    border-radius:8px;
+    padding:10px 10px;
+    border:1px solid #a8a8a8;
+    font-size:11px;
+    margin-bottom:10px;
+}
+
+
+form#post input::placeholder{
+    color:#bdbdbd;
+}
+
+
+form#post textarea {
+    border-radius:8px;
+    padding:10px 10px;
+    border:1px solid #a8a8a8;
+    font-size:11px;
+    margin-bottom:10px;
+    height:150px;
+}
+
+form#post textarea::placeholder{
+    color:#bdbdbd;
+    font-family: sans-serif;
+}
+
+form#post button {
+    padding:10px;
+    color:#fff;
+    background:#9a7bd7;
+    border:none;
+    border-radius:10px;
+    font-size:11px;
+    text-transform: uppercase;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+form#post a {
+    color:#a8a8a8;
+    text-decoration: none;
+}
+
+@media screen and (max-width:400px){
+    form#post {
+        width:100%;
+        max-width:200px;
+        margin: 40px auto 0;
+        padding: 30px;
+    }
+}

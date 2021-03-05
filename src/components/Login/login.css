@@ -1,0 +1,70 @@
+form#login {
+    width:100%;
+    max-width:400px;
+    margin: 90px auto 0;
+    padding: 30px;
+    background:#fff;
+    border-radius:8px;
+    display:flex;
+    flex-direction: column;
+}
+
+form#login h1 {
+    font-size:19px;
+    font-weight: 800;
+    margin-bottom:5px;
+    color:#1e1e1e;
+}
+
+form#login p {
+    font-size:13px;
+    color:#a8a8a8;
+    letter-spacing: 0.8px;
+    margin-bottom:20px;
+}
+
+form#login label {
+    font-size:14px;
+    color:#a8a8a8;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+form#login input {
+    border-radius:8px;
+    padding:10px 10px;
+    border:1px solid #a8a8a8;
+    font-size:11px;
+    margin-bottom:10px;
+}
+
+form#login input::placeholder{
+    color:#bdbdbd;
+}
+
+form#login button {
+    padding:10px;
+    color:#fff;
+    background:#9a7bd7;
+    border:none;
+    border-radius:10px;
+    font-size:11px;
+    text-transform: uppercase;
+    margin-top:10px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+
+form#login a {
+    color:#a8a8a8;
+    text-decoration: none;
+}
+
+@media screen and (max-width:400px){
+    form#login {
+        width:100%;
+        max-width:200px;
+        margin: 40px auto 0;
+        padding: 30px;
+    }
+}

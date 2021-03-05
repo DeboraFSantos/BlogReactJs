@@ -1,0 +1,22 @@
+header#main-header {
+    height:72px;
+    background:#9a7bd7;
+}
+
+header#main-header .header-content{
+    width:100%;
+    max-width:1080px;
+    margin: 0 auto;
+    height: 72px;
+    padding:0 30px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+header#main-header .header-content a{
+    color:#fff;
+    text-decoration: none;
+    font-size:19px;
+    font-weight: 800;
+}
